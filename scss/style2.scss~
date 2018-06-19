@@ -1,0 +1,41 @@
+$bg-color: white; 
+
+body {
+    background: $bg-color;
+}
+
+#banner{
+    background: linear-gradient(75deg, #00aeef 50%, #0060af 50%);
+    margin-bottom: 3px;
+    padding: 0;
+    padding-bottom: 0;
+    height: 60px;
+}
+.jumbotron{
+    background: linear-gradient(75deg, transparent 54.66%, #92278F 33.33%, 66.66%, #C6168D 78.66%);
+    height: 500px;
+    
+}
+#half-picture{
+    background: url(../assets/garden.jpg);
+    background-size: cover;
+}
+.font3{
+    font-family: font3;
+}
+.font1{
+    font-family: font1;
+}
+@font-face{
+    font-family: 'font1';
+    src: url('../fonts/font.woff') format('woff');
+}
+@font-face{
+    font-family: 'font2';
+    src: url('../fonts/font2.woff') format('woff');
+}
+@font-face{
+    font-family: 'font3';
+    src: url('../fonts/font3.woff') format('woff');
+    
+}

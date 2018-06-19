@@ -1,0 +1,67 @@
+$bg-color: white; 
+.container {
+  max-width: 960px;
+}
+
+
+body {
+    background: $bg-color;
+}
+a{text-decoration: none;}
+#banner{
+    background: linear-gradient(75deg, #00aeef 50%, #0060af 50%);
+    margin-bottom: 2px;
+    padding: 0;
+    padding-bottom: 0;
+    height: 60px;
+}
+.jumbotron{
+    background: url(../assets/beach.JPG);
+    background-size: cover;
+    height: 600px;
+    background-position: center; 
+}
+.magenta{
+    background-color: #C6168D;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 5px;
+    font-family: font2;
+}
+.purple{
+    background-color: #92278F;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 5px;
+    font-family: font2;
+}
+#half-picture{
+    background: url(../assets/beach.JPG);
+    background-size: cover;
+     
+   
+}
+.navbar-brand{
+    font-size: 36px;
+    padding: 24px 0px 24px 0px;
+    font-family: 'Cinzel', serif;
+}
+.font3{
+    font-family: font3;
+}
+.font1{
+    font-family: font1;
+}
+@font-face{
+    font-family: 'font1';
+    src: url('../fonts/font.woff') format('woff');
+}
+@font-face{
+    font-family: 'font2';
+    src: url('../fonts/font2.woff') format('woff');
+}
+@font-face{
+    font-family: 'font3';
+    src: url('../fonts/font3.woff') format('woff');
+    
+}
