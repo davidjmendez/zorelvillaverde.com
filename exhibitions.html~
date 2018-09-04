@@ -12,25 +12,7 @@
 	<!--<link rel="stylesheet" href="css/carousel.css">-->
 	<link rel="stylesheet" href="css/sliderw3.css">
     </head>
-    <style>
-      .zoomin{
-        -webkit-animation: zoomin 20s 1;
-      }
-      @-webkit-keyframes zoomin {
-      0% {
-        -webkit-transform: scale(1);
-      }
-      100% {
-        -webkit-transform: scale(2);
-      }
 
-      }
-      .parent{
-      height: 100%;
-      
-        overflow: hidden;
-      }
-    </style>
     <body>
       <nav class="navbar navbar-expand-sm navbar-darker navbar-dark bg-dark justify-content-between font3">
 	<div class="container">
@@ -44,10 +26,8 @@
 	      <li class="nav-item active2">
 		<a class="nav-link d-block" href="index.html">HOME <span class="sr-only">(current)</span></a>
 	      </li>
-	     
 	      <li class="nav-item">
-		<a class="nav-link" href="bio.html">BIO</a>
-		<!--
+		<a class="nav-link" href="pricing.html">GALLERY</a>
 	      </li>
 	       <li class="nav-item">
 		<a class="nav-link" href="guides.html">BEHIND THE SCENES</a>
@@ -55,7 +35,6 @@
 	     <li class="nav-item">
 		<a class="nav-link d-block" href="#">EXHIBITIONS</a>
 	     </li>
-	     -->
 	    </ul>
 	  </div>
 	 
@@ -132,9 +111,9 @@
       </div> -->
 <div class="slideshow-container">
 
-  <div class="mySlides fade2 parent">
-    <div class="numbertext "></div>
-    <img src="assets/expo_long.JPEG" style="width:100%" class="zoomin">
+  <div class="mySlides fade2">
+    <div class="numbertext"></div>
+    <img src="assets/zorel_expo.JPEG" style="width:100%">
    <!-- <div class="text">Caption Text</div>-->
   </div>
 

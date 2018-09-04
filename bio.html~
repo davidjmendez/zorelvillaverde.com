@@ -13,22 +13,16 @@
 	<link rel="stylesheet" href="css/sliderw3.css">
     </head>
     <style>
-      .zoomin{
-        -webkit-animation: zoomin 20s 1;
+      body, html {
+      height: 200%;
       }
-      @-webkit-keyframes zoomin {
-      0% {
-        -webkit-transform: scale(1);
-      }
-      100% {
-        -webkit-transform: scale(2);
-      }
-
-      }
-      .parent{
-      height: 100%;
-      
-        overflow: hidden;
+      .parallax {
+        background-image: url("assets/zorel_bio.JPG");  
+	height: 100%;
+        background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
       }
     </style>
     <body>
@@ -44,10 +38,8 @@
 	      <li class="nav-item active2">
 		<a class="nav-link d-block" href="index.html">HOME <span class="sr-only">(current)</span></a>
 	      </li>
-	     
 	      <li class="nav-item">
-		<a class="nav-link" href="bio.html">BIO</a>
-		<!--
+		<a class="nav-link" href="pricing.html">GALLERY</a>
 	      </li>
 	       <li class="nav-item">
 		<a class="nav-link" href="guides.html">BEHIND THE SCENES</a>
@@ -55,7 +47,6 @@
 	     <li class="nav-item">
 		<a class="nav-link d-block" href="#">EXHIBITIONS</a>
 	     </li>
-	     -->
 	    </ul>
 	  </div>
 	 
@@ -130,31 +121,12 @@
 	  </div>
         </div>	  
       </div> -->
-<div class="slideshow-container">
-
-  <div class="mySlides fade2 parent">
-    <div class="numbertext "></div>
-    <img src="assets/expo_long.JPEG" style="width:100%" class="zoomin">
-   <!-- <div class="text">Caption Text</div>-->
-  </div>
-
-  <div class="mySlides fade2">
-    <div class="numbertext"></div>
-    <img src="assets/lion.JPEG" style="width:100%">
-   <!-- <div class="text">Caption Two</div>-->
-  </div>
-
-  <div class="mySlides fade2">
-    <div class="numbertext"></div>
-    <img src="assets/sol.JPEG" style="width:100%">
-    <!--<div class="text">Caption Three</div>-->
-  </div>
 <!--
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 -->
-</div>
-<br>
+
+
 <!--
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
@@ -162,6 +134,20 @@
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 -->
+        <div class="parallax"></div>
+
+<div class="">
+	<div class="row">
+	  <div class="col-md">
+	    <img style="" src="assets/zorel_bio.JPG" width="100%">	    
+	  </div>
+	  <div class="col-md">
+	    </br>
+	    <h1>Bio</h1>
+	    <p>Zorel Villaverde Perez was born in 1978 in Havana, Cuba. During his childhood he was sorrounded by  very talented artist and craftsman. His mother was a very talented singer, songwriter and was a dancer in the cuban carnavals. His father graduated from art school and was a very talented glass blower and made various trophies to very important cuban artist's of his time. However, most of his artistic influence comes from his grandfather, of his mothers side of the family, who was a graphic designer and publicist for Bacardi Rum in Havana, and in his spare time would recreate Walt Disney cartoons to entertain Zorel Villaverde. His grandfather also inherited to Zorel his great admiration for Pablo, Picasso. Therefore, Zorel's art fuzes pablo picasso's abstract cubism with the live colors and freedom of the naif style. In his search to perfect his style and expand his creativity, he was inspired to study the great figures of art of his time, and graduted from the Experimental Center of Visual Arts.</p>
+	  </div>
+	</div><!-- row -->
+      <!-- container -->
       </br>
       <div class="container">
         <h5 class="ltr-spacing text-secondary">BEHIND THE SCENES</h5>
